@@ -1,0 +1,99 @@
+body {
+  margin: 0;
+  overflow: hidden;
+}
+
+#main {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  /* background-color: blanchedalmond; */
+}
+/* #squares {
+  width: 100%;
+  height: 100vh;
+} */
+#mimimap {
+  position: absolute;
+  height: 30%;
+  aspect-ratio: 1/1;
+  border: 1px solid black;
+  z-index: 10;
+  background-color: aliceblue;
+}
+
+#player {
+  z-index: 12;
+  background-color: rgb(77, 0, 0);
+  position: absolute;
+  width: 5%;
+  aspect-ratio: 1/1;
+  transform: translate(-50%);
+  border-top: 3px solid rgb(149, 0, 80);
+}
+
+#squares div {
+  z-index: 11;
+  position: absolute;
+  width: 15%;
+  height: 15%;
+}
+
+
+.square1 {
+  left: 15%;
+  background-color: red;
+}
+
+.square2 {
+  left: 30%;
+  background-color: lime;
+}
+
+.square3 {
+  left: 45%;
+  background-color: blue;
+}
+
+.square4 {
+  left: 60%;
+  top: 50%;
+  background-color: rgb(27, 209, 233);
+  border-left: solid px red;
+}
+
+.square5 {
+  left: 20%;
+  top: 40%;
+  background-color: rgb(218, 49, 156);
+}
+
+.square6 {
+  left: 80%;
+  top: 15%;
+  background-color: rgb(231, 224, 20);
+}
+
+/* .checking-line {
+  position: absolute;
+  height: 2px;
+  background-color: red; 
+} */
+
+#floor {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  z-index: 5;
+  /* opacity: 0.5; */
+}
+
+#background {
+  z-index: -1;
+  position: absolute;
+  width: 100%;
+  height: 50%;
+  top: 0;
+  background-color: black;
+}
